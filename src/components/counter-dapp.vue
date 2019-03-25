@@ -1,8 +1,8 @@
 <template>
   <div>
- <hello-metamask/>
- <counter-component/>
-</div>
+    <counter-component/>
+    <hello-metamask/>
+  </div>
 </template>
 <script>
 import HelloMetamask from '@/components/hello-metamask'

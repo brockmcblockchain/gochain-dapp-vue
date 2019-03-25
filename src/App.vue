@@ -11,15 +11,18 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: #26304d;
+}
 .container {
- padding-right: 15px;
- padding-left: 15px;
- margin-right: auto;
- margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 @media (min-width: 768px) {
- .container {
- width: 750px;
- }
+  .container {
+    width: 80%;
+  }
 }
 </style>

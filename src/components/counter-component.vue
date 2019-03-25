@@ -1,5 +1,5 @@
 <template>
-  <div class="counter container">
+  <div class="counter-container">
     <h1>GoChain Dapp Demo</h1>
     <h4>Move the Number Up or Down</h4>
     Decentralized Count: <input v-model="number" placeholder="">
@@ -68,9 +68,12 @@ export default {
 </script>
 
 <style scoped>
-.counter {
-     margin-top: 50px;
-     text-align:center;
+.counter-container {
+  background: #fff;
+  color: #000;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
 }
 ul {
     list-style-type: none;
@@ -80,15 +83,15 @@ ul {
     margin: 2rem auto;
 }
 li{
-    padding: 2rem 3rem;
-    border-radius: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
     cursor: pointer;
-    background-color: green;
-    color: #fff;
+    background-color: #adadad;
+    color: #3a3a3a;
 }
 li:hover{
-    background-color:light-green;
-    color: #000;
+    background-color: #525252;
+    color: #b1b1b1;
 }
 li:active{
     opacity: 0.7;

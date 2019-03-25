@@ -28,6 +28,10 @@ export default {
 <style scoped>
 .metamask-info {
   text-align:center;
+  background: #fff;
+  border-radius: .5rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
 }
 #has-metamask {
   color: green;

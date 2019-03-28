@@ -50,3 +50,6 @@ Kick the tires and start adding in your code + contracts + UI.  Web3 is wired up
 [GoChain Testnet Explorer](https://testnet-explorer.gochain.io)
 
 [More on VueJs](https://vuejs.org/)
+
+### Project Credits
+This project was modified and simplified for demo purposes from the awesome example made by mesirendon here: https://github.com/mesirendon/DappExample.
